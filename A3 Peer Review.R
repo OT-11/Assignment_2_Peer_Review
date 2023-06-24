@@ -86,8 +86,6 @@ while ("_" %in% guessed_letters) {
   # answer <- tolower(readline("Please guess a letter: "))
   
   
-  
-  
   # If user guesses the same letter, make sure this doesn't count
   if (answer %in% guessed_letters) {
     cat("Oh no! You've already guessed that letter. Try another! ")
