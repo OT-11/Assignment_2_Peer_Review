@@ -9,7 +9,7 @@
 #' If correct - visually demonstrate where in the word does the correct letter go
 
 
-
+#PR: Function here to run whole code with one click, ex. play_hangman(){
 #' Prepare a dictionary of words to choose from and save in a txt file
 #' Upload dictionary to working directory 
 #' #PR: It would be helpful to include additional files in your repo, so that viewers can run the code the exact way you intended. Without access to dictionary.txt, I have to leave as a placeholder. 
@@ -135,4 +135,5 @@ if (user_won) {
 if (!("_" %in% guessed_letters)) {
   cat("Amazing! You've guessed the secret word:", secret_word)
 } 
-#PR: Consider running the game all within one function, this will execute the game code with one click.
+#PR: Consider running the game all within one function, this will execute the game code with one click. End } here. 
+#PR: Overall good attempt, base functionality. Some additional lines could add defensive elements and additional features. 
